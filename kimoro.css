@@ -1,0 +1,241 @@
+{
+	padding: 0;
+	margin: 10;
+	box-sizing: border-box;
+}
+body	
+{
+	/*background-image: url(gallery/cross.jpeg);*/
+	background-color:#f4a460;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background-color: lightgreen;
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: rgb(100,100,100);
+	font-size: 18px;
+}
+.menu-bar ul li
+{
+	
+	width: 120px;
+	margin: 15px
+	padding: 15px
+}
+.menu-bar ul li:hover
+{
+	background:#4dd0e1;
+}
+.menu-bar ul li ul
+{
+	text-decoration:none;
+	display: inline-flex;
+	list-style: none;
+	font-size: 18px;
+	visibility:hidden;
+}
+.menu-bar ul ul li:hover ul { visibility: visible; background-color: #eee; }
+/*.menu-bar ul li ul li:hover
+{
+	background:#4dd0e1;
+	display:block;
+	visibility:visible;
+}*/
+.menu-bar ul li ul li:hover
+{
+	background:#4dd0e1;
+}
+.mission
+{
+	font-family:Times New Roman;
+	float:left;
+}
+.vission
+{
+	font-family:Times New Roman;
+	float:right;
+}
+.welcome-msg
+{
+	text-align:center;
+	font-family:sans-serif;
+	background:silver;
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+}
+.music-dept
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.ÿouth-dept
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.women-minst
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.elders-office
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.children
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.stewardship-min
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.personal-min
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.deaconry
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.tres-dev
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.sabbath-school
+{
+	border-style:solid;
+	border-color:#008000;
+	border-radius: 25px;
+	font-family:Times New Roman;
+}
+.social-media
+{
+	float:right;
+}
+.leadership
+{
+	font-family:Times New Roman;
+	position:center-left;
+	border-style:none;
+	border-color:#008000;
+	margin-left:80px;
+	margin-right:80px;
+}
+.pastor
+{
+	border-style:none;
+	border-color:#008000;
+}
+.asst-pastor
+{
+	border-style:none;
+	border-color:#008000;
+}
+.first-elder
+{
+	border-style:none;
+	border-color:#008000;
+}
+.second-elder
+{
+	border-style:none;
+	border-color:#008000;
+}
+.third-elder
+{
+	border-style:none;
+	border-color:#008000;
+   
+}
+.tresurer
+{
+	border-style:none;
+	border-color:#008000;
+}
+.donate-form
+{
+   display: block;
+   width:120px;
+   font: 13px Arial, Helvetica, sans-serif;
+   color: #88;
+   margin-bottom: 15px;
+}
+.content
+{
+	columns: 60px 2; 
+	font-family:Times New Roman;
+}
+.tithe-summary
+{
+	background-color:#87ceeb;
+	font-family:Times New Roman;
+	border-radius: 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.events-callenda
+{
+	font-family:Times New Roman;
+}
+.callenda-table
+{
+	font-style;bold;
+	background-color:#f0f8ff;
+}
+.verses
+{
+	font-family:lucida handwriting;
+	font-style;bold;
+	background-color:#f0f8ff;
+	margin:auto;
+	width: 800px;
+	border-radius: 25px;
+	/*height: 10px;*/
+}
+.choir-schedule
+{
+	font-family:Times New Roman;
+	font-style;bold;
+	background-color:lightgreen;
+}
+.copyright
+{
+	text-align: center;
+	text-decoration: overline;
+	text-decoration-color: red;
+}
